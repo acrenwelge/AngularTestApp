@@ -1,0 +1,37 @@
+<h2>Pipes: Examples</h2>
+
+<h3>Text input</h3>
+<input type="text" [(ngModel)]="var1" />
+<p>
+  To uppercase: {{var1 | uppercase }}
+</p>
+<p>
+  To lowercase: {{var1 | lowercase }}
+</p>
+<p>
+  Slice pipe: {{var1 | slice:1:5 }}
+</p>
+
+<h3>Currency</h3>
+<input type="text" [(ngModel)]="var2" />
+<p>
+  To USD: {{var2 | currency:'USD' }}
+</p>
+<p>
+  To EUR: {{var2 | currency:'EUR' }}
+</p>
+<p>
+  To YEN: {{var2 | currency:'JPY' }}
+</p>
+
+<h3>Date</h3>
+<input type="datetime-local" [(ngModel)]="var3" />
+<p>
+  Short: {{var3 | date:'short' }}
+</p>
+<p>
+  Medium: {{var3 | date:'medium' }}
+</p>
+<p>
+  Long: {{var3 | date:'long' }}
+</p>

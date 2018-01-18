@@ -1,0 +1,13 @@
+<h3>Event Binding</h3>
+<p (mouseover)="changeColor($event)">
+  When you mouseover this paragraph, it changes colors!
+</p>
+<div [ngStyle]="divStyle">
+  <p>
+    When you click this <button (click)="editDiv()">button</button>, this div's style changes.
+  </p>
+</div>
+<div>
+  <input #box type="text" (keyup.enter)="changeValue(box.value)">
+  <p>Should change only on enter --> {{value}}</p>
+</div>

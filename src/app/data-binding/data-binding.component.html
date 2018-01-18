@@ -1,0 +1,13 @@
+<h3>String interpolation</h3>
+<p>{{text}}</p>
+<p>{{myobject}}</p>
+
+<h3>Two-way data binding</h3>
+<p>Whatever you type in the input...will appear below...</p>
+Input name: <input type="text" [(ngModel)]="name" />
+<p>{{name}}</p>
+
+<h3>Alternative Implementation of two-way data binding</h3>
+<p>Using the # symbol to declare a variable in the html</p>
+Input name: <input #name2 type="text" (keyup)="0" />
+<p>{{name2.value}}</p>
