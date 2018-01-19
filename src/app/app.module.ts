@@ -10,10 +10,11 @@ import { DataBindingComponent } from './data-binding/data-binding.component';
 import { PropertyBindingComponent } from './property-binding/property-binding.component';
 import { EventBindingComponent } from './event-binding/event-binding.component';
 import { PipeExampleComponent } from './pipe-example/pipe-example.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
-    AppComponent,HomeComponent, NavbarComponent, DataBindingComponent, PropertyBindingComponent, EventBindingComponent, PipeExampleComponent
+    AppComponent,HomeComponent, NavbarComponent, DataBindingComponent, PropertyBindingComponent, EventBindingComponent, PipeExampleComponent, FooterComponent
   ],
   imports: [
     BrowserModule,FormsModule, AppRoutingModule

@@ -1,20 +1,20 @@
 // import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 //
-// import { PipeExampleComponent } from './pipe-example.component';
+// import { FooterComponent } from './footer.component';
 //
-// describe('PipeExampleComponent', () => {
-//   let component: PipeExampleComponent;
-//   let fixture: ComponentFixture<PipeExampleComponent>;
+// describe('FooterComponent', () => {
+//   let component: FooterComponent;
+//   let fixture: ComponentFixture<FooterComponent>;
 //
 //   beforeEach(async(() => {
 //     TestBed.configureTestingModule({
-//       declarations: [ PipeExampleComponent ]
+//       declarations: [ FooterComponent ]
 //     })
 //     .compileComponents();
 //   }));
 //
 //   beforeEach(() => {
-//     fixture = TestBed.createComponent(PipeExampleComponent);
+//     fixture = TestBed.createComponent(FooterComponent);
 //     component = fixture.componentInstance;
 //     fixture.detectChanges();
 //   });
