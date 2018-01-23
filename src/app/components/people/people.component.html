@@ -1,0 +1,8 @@
+<div>
+  <h2>List of People</h2>
+  <ul>
+    <li *ngFor="let person of people">
+      <a routerLink="/people/{{person.id}}" class="" (click)="onSelect(person)">{{person.name}}</a>
+    </li>
+  </ul>
+</div>

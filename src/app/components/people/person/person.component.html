@@ -1,0 +1,23 @@
+<div>
+  <a routerLink="/people">Back to all people</a>
+</div>
+
+<h2>{{person.name}}</h2>
+
+<div>
+  Personal Information:
+  <ul>
+    <li>Age: {{person.age}}</li>
+    <li>Occupation: {{person.occupation}}</li>
+    <li>
+      Attributes:
+      <ul>
+        <li *ngFor="let attr of person.attributes">
+          {{attr}}
+        </li>
+      </ul>
+    </li>
+  </ul>
+  <button class="btn btn-info">Edit</button> 
+  <button class="btn btn-success">Save</button>
+</div>
